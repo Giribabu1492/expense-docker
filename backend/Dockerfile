@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:lts-trixie-slim
 WORKDIR /opt/backend
 COPY package.json .
 COPY *.js .
